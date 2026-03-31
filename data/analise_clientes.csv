@@ -1,0 +1,201 @@
+cliente_id,empresa,dias_sem_compra,frequencia,faturamento_total,ticket_medio,r_score,f_score,m_score,rfm_score,classificacao_rfm,churn
+1,Future Systems,279,2,158.66,79.33,1,3,1,131,Inativo,True
+2,Alpha Corp,147,1,329.66,329.66,3,1,2,312,Em risco,True
+3,Tech Solutions,8,2,515.56,257.78,5,3,3,533,Ativo,False
+4,CloudX,40,1,485.58,485.58,5,1,3,513,Ativo,False
+5,InovaTech,205,1,186.24,186.24,2,1,2,212,Inativo,True
+6,Prime Systems,186,1,456.02,456.02,2,1,2,212,Inativo,True
+7,Prime Systems,63,2,223.38,111.69,4,3,2,432,Ativo,False
+8,Nova Digital,275,1,98.33,98.33,1,1,1,111,Inativo,True
+9,CloudX,116,3,2372.05,790.6833333333334,3,4,5,345,Em risco,True
+10,Alpha Corp,188,1,58.04,58.04,2,1,1,211,Inativo,True
+11,Future Systems,86,6,2634.5,439.0833333333333,3,5,5,355,Em risco,False
+12,CloudX,296,1,40.36,40.36,1,1,1,111,Inativo,True
+13,Vision Tech,312,1,458.18,458.18,1,1,2,112,Inativo,True
+14,Alpha Corp,179,1,31.36,31.36,2,1,1,211,Inativo,True
+15,DataCorp,130,1,405.05,405.05,3,1,2,312,Em risco,True
+16,NextGen,0,4,1940.59,485.1475,5,4,5,545,VIP,False
+17,Tech Solutions,1,5,1795.13,359.026,5,5,5,555,VIP,False
+18,Tech Solutions,60,6,3465.9900000000002,577.6650000000001,4,5,5,455,Ativo,False
+19,Alpha Corp,221,1,331.45,331.45,2,1,2,212,Inativo,True
+20,Prime Systems,7,1,78.8,78.8,5,1,1,511,Ativo,False
+21,Prime Systems,145,4,1441.75,360.4375,3,5,4,354,Em risco,True
+22,Vision Tech,53,2,985.19,492.595,4,3,4,434,Ativo,False
+23,DataCorp,76,1,178.04,178.04,4,1,2,412,Ativo,False
+24,Tech Solutions,24,1,265.2,265.2,5,1,2,512,Ativo,False
+25,Vision Tech,54,5,3053.32,610.664,4,5,5,455,Ativo,False
+26,Prime Systems,105,1,59.85,59.85,3,1,1,311,Em risco,True
+27,CloudX,270,1,142.56,142.56,1,1,1,111,Inativo,True
+28,Future Systems,59,3,2039.15,679.7166666666667,4,4,5,445,Ativo,False
+29,CloudX,57,3,736.79,245.59666666666666,4,4,3,443,Ativo,False
+30,Vision Tech,25,3,2186.85,728.9499999999999,5,4,5,545,VIP,False
+31,NextGen,116,6,3189.66,531.61,3,5,5,355,Em risco,True
+32,Prime Systems,353,1,159.96,159.96,1,1,1,111,Inativo,True
+33,Smart Solutions,126,3,817.27,272.42333333333335,3,4,3,343,Em risco,True
+34,DataCorp,0,5,1944.02,388.804,5,5,5,555,VIP,False
+35,InovaTech,350,1,57.82,57.82,1,1,1,111,Inativo,True
+36,Tech Solutions,92,1,175.09,175.09,3,1,1,311,Em risco,True
+37,Nova Digital,153,1,476.33,476.33,2,1,3,213,Inativo,True
+38,CloudX,137,1,267.1,267.1,3,1,2,312,Em risco,True
+39,NextGen,45,3,674.49,224.83,4,4,3,443,Ativo,False
+40,Global Services,253,1,49.64,49.64,1,1,1,111,Inativo,True
+41,InovaTech,54,2,470.35,235.175,4,3,3,433,Ativo,False
+42,Nova Digital,171,4,3186.7999999999997,796.6999999999999,2,5,5,255,Inativo,True
+43,Prime Systems,140,4,1344.07,336.0175,3,5,4,354,Em risco,True
+44,Global Services,193,1,44.99,44.99,2,1,1,211,Inativo,True
+45,Alpha Corp,264,1,26.29,26.29,1,1,1,111,Inativo,True
+46,Alpha Corp,129,3,1137.69,379.23,3,4,4,344,Em risco,True
+47,NextGen,69,6,2835.58,472.59666666666664,4,5,5,455,Ativo,False
+48,Alpha Corp,220,1,408.87,408.87,2,1,2,212,Inativo,True
+49,Global Services,186,3,1423.32,474.44,2,4,4,244,Inativo,True
+50,Global Services,76,5,2288.87,457.774,4,5,5,455,Ativo,False
+51,DataCorp,33,1,91.44,91.44,5,1,1,511,Ativo,False
+52,InovaTech,83,4,2271.25,567.8125,3,5,5,355,Em risco,False
+53,Tech Solutions,41,4,2376.8,594.2,5,5,5,555,VIP,False
+54,CloudX,63,1,91.91,91.91,4,1,1,411,Ativo,False
+55,Smart Solutions,364,1,568.79,568.79,1,1,3,113,Inativo,True
+56,Vision Tech,18,7,4284.6,612.0857142857143,5,5,5,555,VIP,False
+57,Alpha Corp,28,1,590.01,590.01,5,1,3,513,Ativo,False
+58,NextGen,154,3,406.39,135.46333333333334,2,4,2,242,Inativo,True
+59,Alpha Corp,190,2,625.35,312.675,2,3,3,233,Inativo,True
+60,Vision Tech,6,2,696.73,348.365,5,3,3,533,Ativo,False
+61,InovaTech,278,1,193.91,193.91,1,1,2,112,Inativo,True
+62,Future Systems,52,1,78.85,78.85,4,1,1,411,Ativo,False
+63,DataCorp,126,1,698.14,698.14,3,1,3,313,Em risco,True
+64,Global Services,63,2,857.0799999999999,428.53999999999996,4,3,3,433,Ativo,False
+65,DataCorp,102,2,1404.21,702.105,3,3,4,334,Em risco,True
+66,Prime Systems,177,1,807.7,807.7,2,1,3,213,Inativo,True
+67,CloudX,72,2,937.03,468.515,4,3,4,434,Ativo,False
+68,Alpha Corp,23,3,2288.54,762.8466666666667,5,4,5,545,VIP,False
+69,Tech Solutions,84,1,97.06,97.06,3,1,1,311,Em risco,False
+70,Future Systems,39,2,839.57,419.785,5,3,3,533,Ativo,False
+71,Prime Systems,278,2,613.6,306.8,1,3,3,133,Inativo,True
+72,InovaTech,192,3,973.87,324.62333333333333,2,4,4,244,Inativo,True
+73,Alpha Corp,184,1,156.42,156.42,2,1,1,211,Inativo,True
+74,Prime Systems,55,3,1775.73,591.91,4,4,5,445,Ativo,False
+75,Alpha Corp,121,1,85.5,85.5,3,1,1,311,Em risco,True
+76,NextGen,164,1,200.74,200.74,2,1,2,212,Inativo,True
+77,InovaTech,148,1,473.58,473.58,2,1,3,213,Inativo,True
+78,Smart Solutions,136,1,93.38,93.38,3,1,1,311,Em risco,True
+79,Future Systems,90,1,66.73,66.73,3,1,1,311,Em risco,False
+80,Global Services,285,2,1009.17,504.585,1,3,4,134,Inativo,True
+81,Nova Digital,30,5,2974.6800000000003,594.936,5,5,5,555,VIP,False
+82,Global Services,50,1,449.1,449.1,4,2,2,422,Ativo,False
+83,Global Services,262,1,52.06,52.06,1,2,1,121,Inativo,True
+84,Prime Systems,267,1,630.36,630.36,1,2,3,123,Inativo,True
+85,Future Systems,54,4,1110.6299999999999,277.65749999999997,4,5,4,454,Ativo,False
+86,InovaTech,47,3,950.98,316.99333333333334,4,4,4,444,Ativo,False
+87,CloudX,207,2,494.95000000000005,247.47500000000002,2,3,3,233,Inativo,True
+88,Future Systems,292,1,175.06,175.06,1,2,1,121,Inativo,True
+89,Future Systems,72,1,204.93,204.93,4,2,2,422,Ativo,False
+90,Alpha Corp,63,3,807.43,269.1433333333333,4,4,3,443,Ativo,False
+91,DataCorp,106,2,864.62,432.31,3,3,3,333,Em risco,True
+92,Future Systems,356,1,589.48,589.48,1,2,3,123,Inativo,True
+93,Nova Digital,187,3,1707.77,569.2566666666667,2,4,4,244,Inativo,True
+94,Vision Tech,42,4,1529.61,382.4025,5,5,4,554,VIP,False
+95,CloudX,284,2,738.1500000000001,369.07500000000005,1,3,3,133,Inativo,True
+96,Prime Systems,42,2,979.97,489.985,5,3,4,534,Ativo,False
+97,Nova Digital,306,1,554.56,554.56,1,2,3,123,Inativo,True
+98,Smart Solutions,195,1,236.5,236.5,2,2,2,222,Inativo,True
+99,NextGen,320,1,295.06,295.06,1,2,2,122,Inativo,True
+100,InovaTech,2,2,986.38,493.19,5,3,4,534,Ativo,False
+101,Future Systems,319,1,435.96,435.96,1,2,2,122,Inativo,True
+102,CloudX,21,4,1951.02,487.755,5,5,5,555,VIP,False
+103,Vision Tech,353,1,173.46,173.46,1,2,1,121,Inativo,True
+104,Prime Systems,155,2,1364.63,682.315,2,3,4,234,Inativo,True
+105,Future Systems,336,1,16.4,16.4,1,2,1,121,Inativo,True
+106,Global Services,80,3,1424.76,474.92,3,4,4,344,Em risco,False
+107,Tech Solutions,170,2,1188.27,594.135,2,3,4,234,Inativo,True
+108,Prime Systems,8,7,4584.73,654.9614285714285,5,5,5,555,VIP,False
+109,Tech Solutions,92,2,406.49,203.245,3,3,2,332,Em risco,True
+110,Global Services,46,1,588.28,588.28,4,2,3,423,Ativo,False
+111,NextGen,45,3,899.66,299.88666666666666,4,4,4,444,Ativo,False
+112,InovaTech,98,2,333.68,166.84,3,3,2,332,Em risco,True
+113,Alpha Corp,12,4,1920.15,480.0375,5,5,5,555,VIP,False
+114,Prime Systems,60,2,410.46000000000004,205.23000000000002,4,3,2,432,Ativo,False
+115,DataCorp,47,4,2505.28,626.32,4,5,5,455,Ativo,False
+116,CloudX,122,2,479.31,239.655,3,3,3,333,Em risco,True
+117,Global Services,33,7,4107.5,586.7857142857143,5,5,5,555,VIP,False
+118,Prime Systems,30,4,2355.36,588.84,5,5,5,555,VIP,False
+119,Future Systems,351,2,958.42,479.21,1,3,4,134,Inativo,True
+120,Smart Solutions,324,1,197.06,197.06,1,2,2,122,Inativo,True
+121,NextGen,281,1,386.2,386.2,1,2,2,122,Inativo,True
+122,Future Systems,201,4,2151.45,537.8625,2,5,5,255,Inativo,True
+123,Smart Solutions,53,4,2042.42,510.605,4,5,5,455,Ativo,False
+124,Nova Digital,31,4,1191.87,297.9675,5,5,4,554,VIP,False
+125,InovaTech,148,2,1641.87,820.935,2,3,4,234,Inativo,True
+126,Nova Digital,208,3,1311.74,437.24666666666667,2,4,4,244,Inativo,True
+127,Prime Systems,172,1,284.69,284.69,2,2,2,222,Inativo,True
+128,CloudX,220,2,1702.0700000000002,851.0350000000001,2,3,4,234,Inativo,True
+129,Vision Tech,78,1,184.15,184.15,4,2,2,422,Ativo,False
+130,Vision Tech,145,2,1038.19,519.095,3,3,4,334,Em risco,True
+131,InovaTech,34,5,2555.22,511.044,5,5,5,555,VIP,False
+132,CloudX,49,1,205.62,205.62,4,2,2,422,Ativo,False
+133,DataCorp,35,2,375.62,187.81,5,3,2,532,Ativo,False
+134,NextGen,61,2,364.36,182.18,4,3,2,432,Ativo,False
+135,DataCorp,1,2,673.21,336.605,5,3,3,533,Ativo,False
+136,NextGen,74,4,869.23,217.3075,4,5,3,453,Ativo,False
+137,Global Services,288,1,66.96,66.96,1,2,1,121,Inativo,True
+138,Prime Systems,124,2,949.98,474.99,3,3,4,334,Em risco,True
+139,Nova Digital,3,2,324.02,162.01,5,3,2,532,Ativo,False
+140,Vision Tech,20,6,3608.77,601.4616666666667,5,5,5,555,VIP,False
+141,Smart Solutions,111,7,4313.9,616.2714285714285,3,5,5,355,Em risco,True
+142,Alpha Corp,201,1,142.07,142.07,2,2,1,221,Inativo,True
+143,Tech Solutions,135,3,1096.35,365.45,3,4,4,344,Em risco,True
+144,Alpha Corp,23,3,1689.25,563.0833333333334,5,4,4,544,VIP,False
+145,Nova Digital,78,1,174.25,174.25,3,2,1,321,Em risco,False
+146,Future Systems,244,1,179.06,179.06,1,2,2,122,Inativo,True
+147,Nova Digital,117,4,2156.91,539.2275,3,5,5,355,Em risco,True
+148,Future Systems,34,5,2600.06,520.012,5,5,5,555,VIP,False
+149,NextGen,49,6,4878.73,813.1216666666666,4,5,5,455,Ativo,False
+150,DataCorp,55,1,229.74,229.74,4,2,2,422,Ativo,False
+151,Alpha Corp,31,6,2537.79,422.965,5,5,5,555,VIP,False
+152,NextGen,98,3,1055.44,351.81333333333333,3,4,4,344,Em risco,True
+153,NextGen,57,3,2369.2200000000003,789.7400000000001,4,4,5,445,Ativo,False
+154,DataCorp,302,1,149.06,149.06,1,2,1,121,Inativo,True
+155,Smart Solutions,358,1,187.25,187.25,1,2,2,122,Inativo,True
+156,Vision Tech,119,2,465.51,232.755,3,3,3,333,Em risco,True
+157,InovaTech,300,1,392.76,392.76,1,2,2,122,Inativo,True
+158,Vision Tech,177,2,857.6899999999999,428.84499999999997,2,3,3,233,Inativo,True
+159,Tech Solutions,133,2,1166.01,583.005,3,4,4,344,Em risco,True
+160,Future Systems,323,1,455.51,455.51,1,2,2,122,Inativo,True
+161,CloudX,236,1,570.87,570.87,1,2,3,123,Inativo,True
+162,Alpha Corp,101,2,644.49,322.245,3,4,3,343,Em risco,True
+163,Future Systems,21,7,3841.92,548.8457142857143,5,5,5,555,VIP,False
+164,Vision Tech,229,2,1229.97,614.985,1,4,4,144,Inativo,True
+165,InovaTech,99,3,1636.2400000000002,545.4133333333334,3,4,4,344,Em risco,True
+166,Future Systems,184,1,680.89,680.89,2,2,3,223,Inativo,True
+167,Global Services,212,3,1771.24,590.4133333333333,2,4,4,244,Inativo,True
+168,Alpha Corp,191,1,80.59,80.59,2,2,1,221,Inativo,True
+169,InovaTech,20,7,4835.320000000001,690.7600000000001,5,5,5,555,VIP,False
+170,NextGen,174,2,742.47,371.235,2,4,3,243,Inativo,True
+171,Nova Digital,84,1,172.2,172.2,3,2,1,321,Em risco,False
+172,Smart Solutions,1,1,996.45,996.45,5,2,4,524,Ativo,False
+173,Tech Solutions,45,1,101.55,101.55,4,2,1,421,Ativo,False
+174,CloudX,134,2,678.3,339.15,3,4,3,343,Em risco,True
+175,CloudX,156,4,1790.12,447.53,2,5,5,255,Inativo,True
+176,InovaTech,72,2,688.44,344.22,4,4,3,443,Ativo,False
+177,Vision Tech,246,1,426.48,426.48,1,2,2,122,Inativo,True
+178,Nova Digital,179,2,1204.81,602.405,2,4,4,244,Inativo,True
+179,Vision Tech,60,1,172.72,172.72,4,2,1,421,Ativo,False
+180,Alpha Corp,192,2,1048.23,524.115,2,4,4,244,Inativo,True
+181,Future Systems,46,1,89.84,89.84,4,2,1,421,Ativo,False
+182,InovaTech,247,1,642.05,642.05,1,2,3,123,Inativo,True
+183,Future Systems,28,7,6419.51,917.0728571428572,5,5,5,555,VIP,False
+184,Vision Tech,9,1,29.79,29.79,5,2,1,521,Ativo,False
+185,DataCorp,236,1,135.11,135.11,1,2,1,121,Inativo,True
+186,Prime Systems,1,2,289.75,144.875,5,4,2,542,VIP,False
+187,Nova Digital,29,4,1185.09,296.2725,5,5,4,554,VIP,False
+188,Global Services,166,4,3733.71,933.4275,2,5,5,255,Inativo,True
+189,Nova Digital,278,1,148.99,148.99,1,2,1,121,Inativo,True
+190,Vision Tech,204,1,102.8,102.8,2,3,1,231,Inativo,True
+191,Vision Tech,76,2,468.37,234.185,4,4,3,443,Ativo,False
+192,Tech Solutions,267,1,27.75,27.75,1,3,1,131,Inativo,True
+193,DataCorp,363,1,294.6,294.6,1,3,2,132,Inativo,True
+194,Global Services,71,3,1114.4099999999999,371.46999999999997,4,4,4,444,Ativo,False
+195,Smart Solutions,133,2,1216.12,608.06,3,4,4,344,Em risco,True
+196,Tech Solutions,197,1,895.24,895.24,2,3,4,234,Inativo,True
+197,Alpha Corp,111,2,185.55,92.775,3,4,2,342,Em risco,True
+198,Global Services,168,1,287.98,287.98,2,3,2,232,Inativo,True
+199,InovaTech,68,2,765.66,382.83,4,4,3,443,Ativo,False
+200,Prime Systems,97,2,710.11,355.055,3,4,3,343,Em risco,True

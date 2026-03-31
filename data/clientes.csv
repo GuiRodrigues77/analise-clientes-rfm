@@ -1,0 +1,201 @@
+cliente_id,empresa,idade,renda_mensal
+1,Future Systems,46,6556.29
+2,Alpha Corp,25,3976.37
+3,Tech Solutions,56,9581.89
+4,CloudX,40,7518.74
+5,InovaTech,41,2284.13
+6,Prime Systems,57,6005.07
+7,Prime Systems,39,11058.98
+8,Nova Digital,41,2261.56
+9,CloudX,55,12737.98
+10,Alpha Corp,38,1510.51
+11,Future Systems,39,9836.0
+12,CloudX,42,1595.4
+13,Vision Tech,59,5431.59
+14,Alpha Corp,33,2129.99
+15,DataCorp,64,4642.41
+16,NextGen,61,9848.21
+17,Tech Solutions,20,8442.16
+18,Tech Solutions,24,13109.2
+19,Alpha Corp,56,3802.08
+20,Prime Systems,42,1679.08
+21,Prime Systems,67,14536.03
+22,Vision Tech,43,6703.12
+23,DataCorp,37,2818.57
+24,Tech Solutions,24,4753.84
+25,Vision Tech,25,9734.95
+26,Prime Systems,31,1964.25
+27,CloudX,67,6779.32
+28,Future Systems,19,10444.05
+29,CloudX,59,7239.6
+30,Vision Tech,46,9163.95
+31,NextGen,43,14589.39
+32,Prime Systems,27,7571.68
+33,Smart Solutions,31,13580.17
+34,DataCorp,32,11318.17
+35,InovaTech,40,2694.65
+36,Tech Solutions,57,8531.26
+37,Nova Digital,62,12901.21
+38,CloudX,41,5163.21
+39,NextGen,62,6316.17
+40,Global Services,32,3402.48
+41,InovaTech,42,3731.1
+42,Nova Digital,41,14822.97
+43,Prime Systems,25,6830.9
+44,Global Services,28,1574.55
+45,Alpha Corp,25,4184.37
+46,Alpha Corp,50,11341.6
+47,NextGen,59,9680.46
+48,Alpha Corp,58,6339.29
+49,Global Services,26,13851.96
+50,Global Services,51,9914.52
+51,DataCorp,40,2788.04
+52,InovaTech,54,10529.36
+53,Tech Solutions,57,11349.68
+54,CloudX,52,5208.74
+55,Smart Solutions,54,7874.9
+56,Vision Tech,20,14618.11
+57,Alpha Corp,43,11770.6
+58,NextGen,31,4685.8
+59,Alpha Corp,26,8166.24
+60,Vision Tech,43,11093.95
+61,InovaTech,30,1843.16
+62,Future Systems,49,4223.21
+63,DataCorp,69,10091.54
+64,Global Services,21,9104.22
+65,DataCorp,40,13752.15
+66,Prime Systems,32,9659.63
+67,CloudX,53,11699.94
+68,Alpha Corp,24,14228.52
+69,Tech Solutions,39,5411.64
+70,Future Systems,59,13386.32
+71,Prime Systems,23,12409.63
+72,InovaTech,61,7663.22
+73,Alpha Corp,47,4018.7
+74,Prime Systems,45,13424.28
+75,Alpha Corp,50,6310.02
+76,NextGen,44,5173.79
+77,InovaTech,69,7265.96
+78,Smart Solutions,20,6259.68
+79,Future Systems,25,1593.85
+80,Global Services,54,8710.21
+81,Nova Digital,59,10847.89
+82,Global Services,32,6057.8
+83,Global Services,49,3771.93
+84,Prime Systems,58,8503.67
+85,Future Systems,66,6951.79
+86,InovaTech,29,4927.86
+87,CloudX,19,4899.06
+88,Future Systems,54,11115.65
+89,Future Systems,34,5345.35
+90,Alpha Corp,19,5101.54
+91,DataCorp,40,8286.17
+92,Future Systems,50,5261.73
+93,Nova Digital,19,10063.74
+94,Vision Tech,43,8667.62
+95,CloudX,49,14806.28
+96,Prime Systems,28,9501.41
+97,Nova Digital,34,6490.34
+98,Smart Solutions,41,11330.92
+99,NextGen,51,7849.06
+100,InovaTech,28,10052.65
+101,Future Systems,33,12521.83
+102,CloudX,23,12776.58
+103,Vision Tech,20,10893.47
+104,Prime Systems,53,9477.05
+105,Future Systems,20,1723.94
+106,Global Services,37,12428.26
+107,Tech Solutions,69,10209.83
+108,Prime Systems,57,14197.06
+109,Tech Solutions,35,6720.93
+110,Global Services,28,12809.09
+111,NextGen,42,6104.4
+112,InovaTech,48,4322.47
+113,Alpha Corp,52,13344.08
+114,Prime Systems,33,4585.43
+115,DataCorp,69,12532.5
+116,CloudX,19,8650.28
+117,Global Services,29,14949.42
+118,Prime Systems,49,9036.96
+119,Future Systems,26,10046.87
+120,Smart Solutions,36,5264.76
+121,NextGen,20,11300.4
+122,Future Systems,50,13060.38
+123,Smart Solutions,28,10167.43
+124,Nova Digital,53,14131.07
+125,InovaTech,37,13630.48
+126,Nova Digital,65,9339.27
+127,Prime Systems,52,2869.87
+128,CloudX,35,14644.46
+129,Vision Tech,35,3670.91
+130,Vision Tech,52,8055.79
+131,InovaTech,58,10301.48
+132,CloudX,21,3874.99
+133,DataCorp,38,4702.86
+134,NextGen,25,3914.11
+135,DataCorp,34,12964.52
+136,NextGen,65,5658.82
+137,Global Services,68,2764.61
+138,Prime Systems,39,10090.49
+139,Nova Digital,55,4793.86
+140,Vision Tech,68,14715.05
+141,Smart Solutions,44,13542.63
+142,Alpha Corp,38,7364.32
+143,Tech Solutions,45,8285.6
+144,Alpha Corp,50,10530.47
+145,Nova Digital,65,4135.78
+146,Future Systems,52,5290.43
+147,Nova Digital,34,11875.48
+148,Future Systems,47,14926.43
+149,NextGen,23,14378.04
+150,DataCorp,58,6497.14
+151,Alpha Corp,46,14366.47
+152,NextGen,48,7280.49
+153,NextGen,50,14508.87
+154,DataCorp,38,2517.17
+155,Smart Solutions,50,4077.3
+156,Vision Tech,35,5778.45
+157,InovaTech,48,9016.82
+158,Vision Tech,20,12896.88
+159,Tech Solutions,41,9195.83
+160,Future Systems,64,4320.4
+161,CloudX,19,14865.73
+162,Alpha Corp,59,4931.21
+163,Future Systems,34,13344.54
+164,Vision Tech,26,12957.04
+165,InovaTech,65,10983.54
+166,Future Systems,59,8963.07
+167,Global Services,52,12426.38
+168,Alpha Corp,41,4958.79
+169,InovaTech,24,13828.75
+170,NextGen,62,8270.47
+171,Nova Digital,25,4122.7
+172,Smart Solutions,33,10976.55
+173,Tech Solutions,68,2185.38
+174,CloudX,45,6062.93
+175,CloudX,49,9314.68
+176,InovaTech,39,9306.78
+177,Vision Tech,39,5930.06
+178,Nova Digital,39,9476.25
+179,Vision Tech,59,4878.39
+180,Alpha Corp,60,12605.11
+181,Future Systems,50,3215.32
+182,InovaTech,61,12676.23
+183,Future Systems,56,14530.9
+184,Vision Tech,62,2652.19
+185,DataCorp,47,4124.13
+186,Prime Systems,57,8798.57
+187,Nova Digital,30,11302.23
+188,Global Services,59,14588.75
+189,Nova Digital,34,5859.91
+190,Vision Tech,36,6884.08
+191,Vision Tech,43,7426.11
+192,Tech Solutions,40,1842.24
+193,DataCorp,29,7282.25
+194,Global Services,18,7020.86
+195,Smart Solutions,49,7471.76
+196,Tech Solutions,65,8914.56
+197,Alpha Corp,62,3968.69
+198,Global Services,33,5279.11
+199,InovaTech,22,8475.4
+200,Prime Systems,20,9758.23
