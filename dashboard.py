@@ -15,9 +15,8 @@ Análise de comportamento de clientes usando RFM (Recência, Frequência e Valor
 df = pd.read_csv("data/vendas.csv")
 rfm = pd.read_csv("data/analise_clientes.csv")
 
-# ---------------------------
+
 # churn
-# ---------------------------
 st.subheader("Análise de Churn")
 
 def classificar_churn(dias):
@@ -44,10 +43,9 @@ fig = px.pie(
 )
 st.plotly_chart(fig)
 
-# ---------------------------
+
 # KPIs
-# ---------------------------
-st.subheader("📌 Visão Geral")
+st.subheader(" Visão Geral")
 
 col1, col2, col3, col4 = st.columns(4)
 col1.metric("Clientes", rfm["cliente_id"].nunique())
@@ -55,10 +53,9 @@ col2.metric("Compras", len(df))
 col3.metric("Faturamento", f"R$ {df['valor_compra'].sum():,.2f}")
 col4.metric("Ticket médio", f"R$ {df['valor_compra'].mean():,.2f}")
 
-# ---------------------------
+
 # receita por mês
-# ---------------------------
-st.subheader("📈 Receita por mês")
+st.subheader("Receita por mês")
 
 df["data_compra"] = pd.to_datetime(df["data_compra"])
 df["mes"] = df["data_compra"].dt.to_period("M").astype(str)
@@ -66,10 +63,9 @@ df["mes"] = df["data_compra"].dt.to_period("M").astype(str)
 receita = df.groupby("mes")["valor_compra"].sum()
 st.line_chart(receita)
 
-# ---------------------------
+
 # categorias
-# ---------------------------
-st.subheader("🛒 Receita por categoria")
+st.subheader("Receita por categoria")
 
 categoria = df.groupby("categoria")["valor_compra"].sum()
 st.bar_chart(categoria)
@@ -82,17 +78,15 @@ st.subheader("Clientes por segmento")
 segmento = rfm["classificacao_rfm"].value_counts()
 st.bar_chart(segmento)
 
-# ---------------------------
+
 # top clientes
-# ---------------------------
 st.subheader("Top clientes")
 
 top = rfm.sort_values(by="faturamento_total", ascending=False).head(10)
 st.dataframe(top)
 
-# ---------------------------
+
 # dados
-# ---------------------------
 st.subheader("Dados")
 
 st.dataframe(rfm)

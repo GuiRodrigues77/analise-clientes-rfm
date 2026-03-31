@@ -1,7 +1,6 @@
 import pandas as pd
 import os
 
-# garantir pasta
 os.makedirs("data", exist_ok=True)
 
 # carregar dados
@@ -17,9 +16,8 @@ df = df_vendas.merge(df_clientes, on="cliente_id", how="left")
 # data de referência (última compra)
 data_ref = df["data_compra"].max()
 
-# ---------------------------
+
 # calcular RFM
-# ---------------------------
 rfm = df.groupby(["cliente_id", "empresa"]).agg({
     "data_compra": lambda x: (data_ref - x.max()).days,
     "valor_compra": ["count", "sum"]
@@ -32,9 +30,8 @@ rfm = rfm.reset_index()
 # ticket médio
 rfm["ticket_medio"] = rfm["faturamento_total"] / rfm["frequencia"]
 
-# ---------------------------
+
 # scores (1 a 5)
-# ---------------------------
 rfm["r_score"] = pd.qcut(
     rfm["dias_sem_compra"].rank(method="first"),
     5,
@@ -60,9 +57,8 @@ rfm["rfm_score"] = (
     rfm["m_score"].astype(str)
 )
 
-# ---------------------------
+
 # classificação
-# ---------------------------
 def classificar(row):
     if row["r_score"] == 5 and row["f_score"] >= 4:
         return "VIP"
@@ -81,4 +77,4 @@ rfm["churn"] = rfm["dias_sem_compra"] > 90
 # salvar
 rfm.to_csv("data/analise_clientes.csv", index=False)
 
-print("✅ RFM gerado com sucesso!")
+print("RFM gerado com sucesso!")

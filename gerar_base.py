@@ -21,9 +21,8 @@ nomes_empresas = [
     "Vision Tech", "DataCorp", "Future Systems", "CloudX"
 ]
 
-# ---------------------------
+
 # Criar clientes
-# ---------------------------
 clientes = []
 
 for i in range(1, NUM_CLIENTES + 1):
@@ -40,9 +39,8 @@ for i in range(1, NUM_CLIENTES + 1):
 df_clientes = pd.DataFrame(clientes)
 df_clientes.to_csv("data/clientes.csv", index=False)
 
-# ---------------------------
+
 # Criar vendas com comportamento mais realista
-# ---------------------------
 compras = []
 
 def gerar_categoria_por_renda(renda):
